@@ -31,9 +31,9 @@ Add the following configuration to your `config.js` file of MagicMirror:
         gif: "kuchtik.gif", // name of the GIF file in the gifs folder
         animationSpeed: 3000,
         alwaysOnTheScreen: false,
-        showGifEvery: 60 * 5 * 1000, // 5 minutes
-        showGifFor: 20000, // 10 seconds
-        scaleGif: 0.5,
+        showGifEvery: 60 * 3 * 1000, // 3 minutes
+        showGifFor: 20000, // 20 seconds
+        scaleGif: 0.25,
     }
 }
 ```
@@ -45,9 +45,13 @@ Add the following configuration to your `config.js` file of MagicMirror:
 | `gif`             | Name of the GIF file in the gifs folder          | `"kuchtik.gif"`     |
 | `animationSpeed`  | Speed of the animation in milliseconds           | `3000`              |
 | `alwaysOnTheScreen` | Whether the GIF is always on the screen         | `false`             |
-| `showGifEvery`    | Interval in milliseconds to show the GIF         | `300000` (5 minutes)|
+| `showGifEvery`    | Interval in milliseconds to show the GIF         | `180000` (3 minutes)|
 | `showGifFor`      | Duration in milliseconds to show the GIF         | `20000` (20 seconds)|
-| `scaleGif`        | Scale of the GIF                                 | `0.5`               |
+| `scaleGif`        | Scale of the GIF                                 | `0.25`               |
+
+### Note
+
+If the parrot GIF does not appear, please wait for the interval specified by `showGifEvery` or set `alwaysOnTheScreen` to `true` to have the GIF always displayed.
 
 ## Screenshots
 

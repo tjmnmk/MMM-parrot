@@ -3,9 +3,9 @@ Module.register("MMM-parrot-or-gif", {
         gif: "kuchtik.gif", // show a parrot with the name kuchtik
         animationSpeed: 3000,
         alwaysOnTheScreen: false,
-        showGifEvery: 60 * 5 * 1000, // 5 minutes
+        showGifEvery: 60 * 3 * 1000, // 3 minutes
         showGifFor: 20000, // 20 seconds
-        scaleGif: 0.5,
+        scaleGif: 0.25,
     },
 
     start: function() {
