@@ -1,7 +1,7 @@
 {
     "name": "MMM-parrot-or-gif",
     "version": "0.1.0",
-    "description": "This module displays a parrot GIF or any other GIF on the screen. You can customize the animation speed, display interval, and size of the GIF. The GIF can be shown continuously or at specific intervals, adding a touch of fun to your MagicMirror setup.",
+    "description": "MagicMirror2 module that displays a parrot GIF or any other GIF on the screen. You can customize the animation speed, display interval, and size of the GIF. The GIF can be shown continuously or at specific intervals, adding a touch of fun to your MagicMirror setup.",
     "main": "MMM-parrot-or-gif.js",
     "repository": {
       "type": "git",

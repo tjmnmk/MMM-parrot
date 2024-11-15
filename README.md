@@ -1,6 +1,6 @@
 # MMM-parrot-or-gif
 
-This module displays a parrot GIF or any other GIF on the screen. The GIF can be shown continuously or at specific intervals.
+[MagicMirror²](https://github.com/MichMich/MagicMirror/) module that displays a parrot GIF or any other GIF on the screen. The GIF can be shown continuously or at specific intervals.
 
 ## Screenshots
 
