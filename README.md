@@ -1,7 +1,5 @@
 # MMM-parrot-or-gif
 
-**This module is currently in development and not production-ready**
-
 This module displays a parrot GIF or any other GIF on the screen.
 
 ## Installation
@@ -28,12 +26,31 @@ Add the following configuration to your `config.js` file of MagicMirror:
 ```js
 {
     module: "MMM-parrot-or-gif",
-    position: "middle_center", // or any other position of your choice
+    position: "lower_third", // or any other position of your choice
     config: {
         gif: "kuchtik.gif", // name of the GIF file in the gifs folder
-        animationSpeed: 2000,
+        animationSpeed: 3000,
         alwaysOnTheScreen: false,
         showGifEvery: 60 * 5 * 1000, // 5 minutes
-        showGifFor: 10000, // 10 seconds
+        showGifFor: 20000, // 10 seconds
+        scaleGif: 0.5,
     }
 }
+```
+
+### Configuration Options
+
+| Option            | Description                                      | Default Value       |
+|-------------------|--------------------------------------------------|---------------------|
+| `gif`             | Name of the GIF file in the gifs folder          | `"kuchtik.gif"`     |
+| `animationSpeed`  | Speed of the animation in milliseconds           | `3000`              |
+| `alwaysOnTheScreen` | Whether the GIF is always on the screen         | `false`             |
+| `showGifEvery`    | Interval in milliseconds to show the GIF         | `300000` (5 minutes)|
+| `showGifFor`      | Duration in milliseconds to show the GIF         | `20000` (20 seconds)|
+| `scaleGif`        | Scale of the GIF                                 | `0.5`               |
+
+## Screenshots
+
+Here are some screenshots of the module in action:
+
+![Screenshot 1](screenshots/screenshot.png)
