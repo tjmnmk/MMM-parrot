@@ -58,4 +58,8 @@ Module.register("MMM-parrot-or-gif", {
             }, this.config.showGifFor);
         }, this.config.showGifEvery);
     },
+
+    getStyles: function() {
+        return ["MMM-parrot-or-gif.css"];
+    },
 });
