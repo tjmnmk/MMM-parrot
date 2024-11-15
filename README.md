@@ -1,6 +1,6 @@
 # MMM-parrot-or-gif
 
-** This module is currently in development and not production-ready **
+**This module is currently in development and not production-ready**
 
 This module displays a parrot GIF or any other GIF on the screen.
 
