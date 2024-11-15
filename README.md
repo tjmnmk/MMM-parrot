@@ -1,6 +1,12 @@
 # MMM-parrot-or-gif
 
-This module displays a parrot GIF or any other GIF on the screen.
+This module displays a parrot GIF or any other GIF on the screen. The GIF can be shown continuously or at specific intervals.
+
+## Screenshots
+
+Here are some screenshots of the module in action:
+
+![Screenshot 1](screenshots/screenshot.png)
 
 ## Installation
 
@@ -53,8 +59,7 @@ Add the following configuration to your `config.js` file of MagicMirror:
 
 If the parrot GIF does not appear, please wait for the interval specified by `showGifEvery` or set `alwaysOnTheScreen` to `true` to have the GIF always displayed.
 
-## Screenshots
+## License
 
-Here are some screenshots of the module in action:
+You can choose between the Beerware license, as defined in `LICENSE_BEERWARE`, and the Unlicense, as defined in `LICENSE`. (The Unlicense was added for compatibility with [MagicMirror-3rd-Party-Modules](https://github.com/KristjanESPERANTO/MagicMirror-3rd-Party-Modules)).
 
-![Screenshot 1](screenshots/screenshot.png)
