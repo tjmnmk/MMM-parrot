@@ -35,7 +35,7 @@ Add the following configuration to your `config.js` file of MagicMirror:
         showGifFor: 20000, // 20 seconds
         scaleGif: 0.25,
     }
-}
+},
 ```
 
 ### Configuration Options
